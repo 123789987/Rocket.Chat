@@ -95,7 +95,7 @@ export function InformationPage() {
 
 	const alertOplogForMultipleInstances = statistics && statistics.instanceCount > 1 && !statistics.oplogEnabled;
 
-	return <section className='page-container page-list Admin__InformationPage'>
+	return <section className='page-container'>
 		<Header rawSectionName={t('Info')} hideHelp>
 			{canViewStatistics
 				&& <Header.ActionBlock>
